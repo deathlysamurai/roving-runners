@@ -1,0 +1,25 @@
+.hero {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+    margin-bottom: -5vw;
+}
+
+.info {
+    margin: 5vw 20%;
+    padding-bottom: 1em;
+}
+
+.register {
+    margin: 2em 0;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    display: inline-block;
+}
+
+img {
+    float: right;
+}

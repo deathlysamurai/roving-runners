@@ -1,0 +1,37 @@
+<div class="header-wrapper">
+    <header>
+        <div class="header-container">
+            <a pageScroll [routerLink]="['home']" href="#hero"><img src="../assets/images/logo.png" alt="roving runners logo"></a>
+
+            <ul>
+                <li>
+                    <a pageScroll [routerLink]="['home']" href="#races" class="static">Upcoming</a>
+                </li>
+                <li>
+                    <a pageScroll [routerLink]="['home']" href="#community" class="static">Community</a>
+                </li>
+                <li>
+                    <a pageScroll [routerLink]="['home']" href="#about-us" class="static">About Us</a>
+                </li>
+                <li>
+                    <a pageScroll [routerLink]="['home']" href="#contact" class="static">Contact</a>
+                </li>
+                <li>
+                    <a routerLink="/calendar" class="hover">Calendar</a>
+                </li>
+                <li>
+                    <a routerLink="/membership" class="hover">Membership</a>
+                </li>
+                <li>
+                    <a href="#" class="hover">Extras</a>
+                </li>
+            </ul>
+
+            <button class="hamburger hamburger--collapse" type="button" (click)="openMobileMenu()">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+</div>

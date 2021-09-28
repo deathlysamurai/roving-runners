@@ -1,0 +1,16 @@
+<main>
+    <table>
+        <tr>
+            <th *ngFor="let row of table">{{ row.tier }}</th>
+        </tr>
+        <tr>
+            <td class="price" *ngFor="let row of table">{{ row.price }}</td>
+        </tr>
+        <tr *ngFor="let extra of extras; let i = index">
+            <td *ngFor="let row of table">{{ row.extras[i] }}</td>
+        </tr>
+        <tr>
+            <td *ngFor="let row of table"><button mat-raised-button>Sign up</button></td>
+        </tr>
+    </table>
+</main>

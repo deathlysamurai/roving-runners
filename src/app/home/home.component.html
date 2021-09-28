@@ -1,0 +1,109 @@
+<main>
+  <section id="hero" class="hero">
+    <h1>Community. Nature. Running.</h1>
+  </section>
+
+  <section id="races" class="races">
+    <div class="text">
+      <h2>Upcoming Races</h2>
+      <p>Click on a race to find out more. We look forward to seeing you!</p>
+    </div>
+    <app-upcoming-carousel class="carousel"></app-upcoming-carousel>
+    <div class="calendar-button-container">
+      <button mat-raised-button>View Calendar of Events</button>
+    </div>
+  </section>
+
+  <section id="community" class="community">
+    <div class="text">
+      <h2>Community</h2>
+      <p>Tag us with #roving-runners to share your run with everyone.</p>
+    </div>
+    <!-- SnapWidget -->
+    <div class="widget">
+      <iframe src="https://snapwidget.com/embed/960398" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </section>
+
+  <section id="about-us" class="about-us">
+    <div class="text">
+      <h1>About Us</h1>
+      <p>Learn more about us and how you can get involved in the community!</p>
+      <div>
+        <ul>
+          <li>
+            <div>
+              <div class="icons">
+                <mat-icon>person</mat-icon>
+              </div>
+              <h3>Who We Are</h3>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="icons">
+                <mat-icon>people</mat-icon>
+              </div>
+              <h3>Community</h3>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="icons">
+                <mat-icon>volunteer_activism</mat-icon>
+              </div>
+              <h3>Volunteer</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button mat-raised-button class="about-us-button">About Us</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h1>Contact Us!</h1>
+    <div class="contact-form">
+      <div class="form">
+        <form action="https://formspree.io/f/mleaapvl" method="POST" target="_blank">
+          <div class="form-field">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" name="name">
+          </div>
+  
+          <div class="form-field">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" name="_replyto">
+          </div>
+  
+          <div class="form-field">
+            <mat-label>Subject</mat-label>
+            <input matInput type="text" name="subject">
+          </div>
+  
+          <div class="form-field">
+            <mat-label>Message</mat-label>
+            <textarea matInput name="message"></textarea>
+          </div>
+  
+          <button mat-raised-button type="submit">Send</button>
+        </form>
+      </div>
+  
+      <ul class="links">
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-instagram"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fas fa-envelope"></i>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>

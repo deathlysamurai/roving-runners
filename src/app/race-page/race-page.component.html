@@ -1,0 +1,20 @@
+<main *ngIf="init">
+    <section class="hero" [style.background-image]="'url('+currentRace.src+')'">
+        <h1>{{ currentRace.name }}</h1>
+    </section>
+    <section class="info">
+        <h2>Race Information</h2>
+        <p>{{ currentRace.description }}</p>
+        <div class="register">
+            <p>Date: {{ date }}<br>
+                Time: {{ time }}<br>
+                Distance: {{ currentRace.distance }}<br>
+                Location: {{ currentRace.alt }}<br>
+                Cost: {{ currentRace.cost }}
+            </p>
+            <a href="http://www.getmeregistered.com" target="_blank">
+                <img src="../../assets/images/register.png" alt="getmeregistered.com button">
+            </a>
+        </div>
+    </section>
+</main>

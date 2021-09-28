@@ -1,0 +1,29 @@
+[
+    {
+        "src": "assets/images/Races/cedar-breaks.jpg",
+        "alt": "Cedar Breaks, Brian Head, Utah",
+        "name": "Cedar Breaks 10K",
+        "date": "2021-10-17T08:00:00",
+        "description": "Join us for breathtaking views at the expansive Cedar Breaks National Monument. At over 10,000ft this race will not be for the faint of heart. However finishing this race will be an achievement in itself, and it will be followed by live music and food.",
+        "distance": ["10K"],
+        "cost": ["$35"]
+    },
+    {
+        "src": "assets/images/Races/coconino.jpg",
+        "alt": "Coconino Forest, Flagstaff, Arizona",
+        "name": "Race among the Trees",
+        "date": "2021-11-03T10:00:00",
+        "description": "Join us for an exhilarating race through the Aspen trees of northern Coconino Forest. The race is located near the base of Humphreys Peak outside of Flagstaff, Arizona so the nature is some of the most beautiful you can find. This race will include Marathon, Half-Marathon, 10K, and 5K distances.",
+        "distance": ["Half-Marathon", " 10K", " 5K"],
+        "cost": ["Half: $65", " 10K: $40", " 5K: $20"]
+    },
+    {
+        "src": "assets/images/Races/crete.jpg",
+        "alt": "Crete, Nebraska",
+        "name": "Corn Competition 5K",
+        "date": "2022-03-25T09:30:00",
+        "description": "All of your corn fantasies will come true when you run our race through the corn. This race is located just outside of the hustle and bustle of the capital of Nebraska. Every entry will get you 3 ears of corn you can use during our corn cook-off after the race.",
+        "distance": ["5K"],
+        "cost": ["$25"]
+    }
+]
