@@ -1,3 +1,22 @@
+https://rovingrunners.herokuapp.com/#/home - FINISHED FOR THE TIME BEING
+
+Made because mom had shown interest in starting a business that travels around putting on
+running road races. Will continue working on this project if mother decides she would like to pursue this, otherwise this will be finished so I can work on new projects.
+
+//TODOS 
+*Change design to make pages look better, take input from mother as well
+*clicking roving runners logo brings page down a few pixels
+*When clicking a header tab that is on the home page other than upcoming does not work correctly
+*Change instagram scroll to use something such as #roving-runners rather than my personal page
+*Setup about us button to link to a page about the company, my mother, and any other important info
+*Change how contact form works, maybe setup my own back-end
+*Setup social media links to go to actual pages, will create these pages if mother wants to
+*Maybe change look of calendar
+*Confirm info to use for membership, and setup a way to actually sign up
+*Make extras such as pace calculator, FAQs, volunteering, training plans, fun runs
+
+
+
 # RovingRunners
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
