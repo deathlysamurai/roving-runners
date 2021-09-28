@@ -1,0 +1,13 @@
+<mdb-carousel class="carousel slide" [animation]="'slide'">
+    <mdb-carousel-item *ngFor="let slide of slides">
+      <div class="view w-100">
+        <img class="d-block w-100" src="{{ slide.src }}" alt="{{ slide.alt }}">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption pointer" (click)="goToRacePage(slide.name)">
+        <h1>{{ slide.name }}</h1>
+        <h2>{{ slide.date }}</h2>
+        <p>{{ slide.description }}</p>
+      </div>
+    </mdb-carousel-item>
+</mdb-carousel>
