@@ -1,15 +1,13 @@
-//Install express server
-const express = require('express');
-const path = require('path');
+var express = require('express');
+var app = express();
+var server = require('http').Server(app);
+var bodyParser = require('body-parser');
 
-const app = express();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}) );
 
-// Serve only the static files from the dist directory
-app.use(express.static('./dist/Roving-Runners'));
+app.use( express.static(__dirname + '/client' ) );
 
-app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: 'dist/Roving-Runners/'}),
-);
-
-// Start the app by listening on the default Heroku port
-app.listen(process.env.PORT || 8080);
+var listener = server.listen(process.env.PORT || 5000, function(){
+    console.log('Listening on port ' + listener.address().port); //Listening on port 5000
+});
