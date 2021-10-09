@@ -28,6 +28,6 @@ p {
 
 @media only screen and (max-width: 1000px) {
     h2, p {
-        display: none;
+        display: none !important;
     }
 }
