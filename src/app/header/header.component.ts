@@ -15,6 +15,9 @@ export class HeaderComponent implements OnInit {
   openMobileMenu() {
     var hamburger = document.querySelector(".hamburger");
     hamburger?.classList.toggle("is-active");
+
+    var ul = document.querySelector("ul");
+    ul?.classList.toggle("dropdown-menu");
   }
 
 }
