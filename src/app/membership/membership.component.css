@@ -1,9 +1,13 @@
+main {
+    width: 100%;
+}
+
 table {
     position: absolute;
     width: 80%;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     border: 1px black solid;
     text-align: center;
 }
@@ -21,6 +25,7 @@ th {
 }
 
 td {
+    font-size: 1em;
     padding: 1em;
 }
 
@@ -31,4 +36,21 @@ button {
 
 tr:nth-child(odd) {
     background: #f7f7f7;
+}
+
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    th, .price {
+        font-size: 3vw;
+    }
+
+    td {
+        font-size: 2vw;
+    }
 }

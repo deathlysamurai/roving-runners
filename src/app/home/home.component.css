@@ -10,6 +10,7 @@
 }
 
 p {
+    font-size: 3vw;
     text-align: center;
 }
 
@@ -22,8 +23,8 @@ p {
 button {
     display: flex;
     margin: auto;
-    padding: 0 20%;
-    font-size: 1.5em;
+    padding: 0 10%;
+    font-size: 3vw;
     background: linear-gradient(to bottom right, #1c9941, #a4d6b3, white);
 }
 
@@ -48,7 +49,7 @@ button {
     background-size: cover;
     width: 100%;
     height: 100%;
-    padding: 5%;
+    padding: 5% 0;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
     margin-bottom: -5vw;
 }
@@ -62,6 +63,7 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    padding-inline-start: 0;
 }
 
 .text li {
@@ -69,12 +71,15 @@ button {
     list-style-type: none;
     margin: 5%;
 }
+.text h3 {
+    font-size: 3vw;
+}
 
 mat-icon {
     width: fit-content;
     height: fit-content;
-    font-size: 48px;
-    padding: 10%;
+    font-size: 10vw;
+    padding: 15%;
     background-color: #1c9941;
     border-radius: 50%;
 }
@@ -157,4 +162,3 @@ i {
 .fa-envelope {
     background: #1c9941;
 }
-
