@@ -37,12 +37,6 @@
               "node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
               "node_modules/angular-bootstrap-md/assets/scss/mdb.scss",
               "node_modules/animate.css/animate.css",
-              "src/app/calendar/calendar.component.css",
-              "src/app/header/header.component.css",
-              "src/app/home/upcoming-carousel/upcoming-carousel.component.css",
-              "src/app/home/home.component.css",
-              "src/app/membership/membership.component.css",
-              "src/app/race-page/race-page.component.css",
               "src/styles.css"
             ],
             "scripts": [
