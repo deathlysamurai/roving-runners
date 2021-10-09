@@ -86,16 +86,16 @@ button {
 
 @media only screen and (max-width: 1000px) {
     button {
-        display: block;
+        display: block !important;
     }
 
     ul {
-        display: none;
+        display: none !important;
     }
 
     .dropdown-menu {
-        display: block;
-        position: absolute;
-        width: 100%;
+        display: block !important;
+        position: absolute !important;
+        width: 100% !important;
     }
 }
